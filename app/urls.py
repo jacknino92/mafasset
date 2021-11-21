@@ -5,9 +5,10 @@ from app import views
 
 urlpatterns = [
 	#path('admin/', admin.site.urls),
-    path('', views.login, name='login'),
+    path('', views.login_user, name='login'),
     #path('asset/', views.login1, name='asset')
-    path('index/', views.index, name='index')
+    path('index/', views.index, name='index'),
+    
 
 
 ]
